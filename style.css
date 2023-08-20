@@ -29,19 +29,22 @@ body {
   background-size: cover;*/
 
   /*background: color image repeat position/size */
-  background: var(--bg-url) top center/cover;
-}
-
-#container {
-  width: 360px;
-  margin: auto;
-  padding-top: 56px;
+  background: var(--bg-url) no-repeat top center/cover;
 }
 
 body * {
   font-family: "Inter", sans-serif;
   color: var(--text-color);
 }
+
+#container {
+  width: 360px;
+  max-width: 588px;
+  margin: 56px auto 0px;;
+  padding-top: 0 24px;
+}
+
+
 
 #profile {
   text-align: center;
